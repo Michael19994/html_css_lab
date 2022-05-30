@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+/* codeclan news */
+body > header > h1{
+    margin: 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+
+#header-list ul{
+    margin: 20px;
+    text-align: right;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+#header-list li{
+    display: inline;
+    color:white;
+}
